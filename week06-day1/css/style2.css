@@ -1,0 +1,113 @@
+table {
+    border: 1pt solid blue;
+    width: 100%;
+}
+
+td {
+    border: 2px dashed black;
+    width: 33%;
+    text-align: left;
+}
+
+tr {
+    border: 4px dashed red;
+}
+
+tr:hover {
+    background-color: red;
+
+}
+
+body {
+    font-size: 100%;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: Arsenal, Arial;
+}
+
+header {
+    padding-bottom: .75em;
+    border-bottom: 3px solid black;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 200%;
+    margin-bottom: 2px;
+}
+
+/* descendant */
+body li {
+    font-size: 90%;
+}
+
+ul a {
+    color: crimson
+}
+
+/* child */
+main>p {
+    font-size: 80%;
+    color: firebrick;
+}
+
+li>a {
+    color: green;
+}
+
+/* https://www.freecodecamp.org/news/learn-the-basics-the-css-position-property/
+
+There are five values the position property can take. They are:
+
+static - default
+relative
+absolute
+fixed
+sticky
+
+*/
+p.indented {
+    position: relative;
+    left: 20px;
+}
+
+p.outdented {
+    position: relative;
+    left: -20px
+}
+
+.absolute {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+
+    background-color: #00FFFF;
+    width: 150px;
+    height: 150px;
+    overflow: scroll;
+}
+
+.fixed {
+    position: fixed;
+    left: 20px;
+    top: 50px;
+
+    background-color: #00FFFF;
+    width: 25em;
+    height: 8em;
+    overflow: scroll;
+}
+
+.sticky {
+    position: sticky;
+    top: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.positioning {
+    position: relative;
+    height: 800px;
+    padding: 50px 10px;
+    background-color: #81adc8;
+}

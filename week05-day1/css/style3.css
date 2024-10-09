@@ -1,0 +1,58 @@
+/* measurement
+px	pixels	absolute	A pixel represents a single dot on a monitor. The number of dots per inch depends on teh resolution of hte monitor
+
+pt	points	absolute	A point is 1/72 of an inch
+
+em	ems		relative	1 em is equal to teh font size for the current font
+
+%	percent	relative	A percent specifies a value relative to the current value
+*/
+
+body {
+	font-size: 100%;
+	margin-left: 2em;
+	margin-right: 2em;
+	font-family: arial;
+}
+
+
+header {
+	padding-bottom: .75em;
+	border-bottom: 3 px solid black;
+	margin-bottom: 0;
+}
+
+h1 {
+	font-size: 200%;
+	margin-bottom: 0;
+}
+
+/* descendant */
+main li {
+	font-size: 90%;
+}
+
+ul a {
+	color: green;
+}
+
+
+/* adjacent sibling */
+h2+p {
+	margin-top: .5em;
+}
+
+/* child  */
+main>p {
+	font-size: 10%;
+	font-family: Tahoma;
+}
+li>a {
+	color:green;
+}
+
+/* general sibling */
+h2~p {
+	font-family: Verdana;
+	margin-left: 2em;
+}

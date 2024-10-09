@@ -1,0 +1,17 @@
+body {
+	background-color: goldenrod;
+	font-family: Tahoma;
+}
+
+p {
+	
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+table, th, td, tr {
+   border: 1px solid black;
+}

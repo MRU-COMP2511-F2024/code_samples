@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	  <meta charset="UTF-8">
+	  <meta name="description" content="Free Web tutorials">
+	  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	  <meta name="author" content="Apoorve Chokshi">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MyFirstPage</title>
+    
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+  </head>
+  <body>
+    <h1>Tables</h1>
+    <table border="1">
+      <tfoot>
+        <tr>
+          <td>table footer</td>
+          <td>table footer</td>
+          <td>table footer</td>
+        </tr>
+      </tfoot>
+      
+      <tbody>
+        <tr >
+          <td bgcolor="red" colspan="2">row 1, col 1</td>
+          <td bgcolor="blue" rowspan="2">row 1, col 3</td>
+          </tr>
+          <tr>
+            <td>row 2, col 1</td>
+            <td>row 2, col 2</td>
+          </tr>
+        </tbody>
+
+      <thead>
+        <th>table header</th>
+        <th>table header</th>
+        <th>table header</th>
+      </thead>
+
+    </table>
+
+    <hr/>
+
+    <h1>Forms</h1>
+
+    <form method="get" action="mailto:achokshi@mtroyal.ca">
+      <label>First&nbsp;&nbsp;name:</label>
+      <input id="first_name" value="hello" type="text" />
+      <br>
+
+      <label>Last&nbsp;&nbsp;name:</label>
+      <input id="last_name" value="some name" type="text" />
+
+    </form>
+
+  </body>
+</html>

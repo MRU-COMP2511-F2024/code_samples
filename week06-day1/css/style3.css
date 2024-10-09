@@ -1,0 +1,96 @@
+/* measurement
+px	pixels	absolute	A pixel represents a single dot on a monitor. The number of dots per inch depends on teh resolution of hte monitor
+
+pt	points	absolute	A point is 1/72 of an inch
+
+em	ems		relative	1 em is equal to the font size for the current font
+
+%	percent	relative	A percent specifies a value relative to the current value
+*/
+
+.em {
+	font-size: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+	font-family: tahoma;
+	
+	/* CSS Text Spacing Properties */
+	text-indent: 10%;
+	text-align: left;
+}
+
+.percentages{
+	font-size: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: arial;
+
+	/* CSS Text Spacing Properties */
+	line-height: normal;
+	vertical-align: auto;
+}
+
+.pixels {
+	font-size: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-family: verdana;
+	
+	/* CSS Text Spacing Properties */
+	letter-spacing: normal;
+	word-spacing: normal;
+}
+
+header {
+	padding-bottom: .75em;
+	border-bottom: 3 px solid black;
+	margin-bottom: 0;
+	
+
+}
+
+h1 {
+	font-size: 200%;
+	margin-bottom: 0;
+
+	/* CSS Text Spacing Properties */
+	text-decoration: overline;
+	text-transform: capitalize;
+}
+
+/* descendant */
+main li {
+	font-size: 90%;
+}
+
+ul li{
+	color: brown;
+	list-style-type: square;
+	list-style-image: url("../images/pawprint.jpg");
+}
+
+
+ol {
+	list-style-type: lower-alpha;
+}
+
+
+/* adjacent sibling */
+h2+p {
+	margin-top: .5em;
+}
+
+/* child  */
+main>p {
+	font-size: 10%;
+	font-family: Tahoma;
+}
+li>a {
+	color:green;
+}
+
+/* general sibling */
+h2~p {
+	font-family: Verdana;
+	margin-left: 2em;
+}

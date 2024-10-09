@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Buttons and Check Boxes</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <script type="text/javascript" src="js/buttons_and_checks.js">
+    </script>
+
+</head>
+
+<body onload="initFunction()">
+
+    <h1>Today is: <span id="date-field"></span></h1>
+    <br>
+    <br>
+    <h1>Gift Box and Gift</h1>
+    <br>
+
+
+    <form name="costEstimation" method="get" action="validate.html">
+        <table>
+            <tr>
+                <th>Choose Your Box Type</th>
+                <th>Choose The Gift</th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="specialty" value="5" checked>Plain Box<br>
+                    <input type="radio" name="specialty" value="7">Deluxe Box<br>
+                    <input type="radio" name="specialty" value="10">Premium Box<br>
+                </td>
+                <td>
+                    <input type="checkbox" name="earrings">Earrings<br>
+                    <input type="checkbox" name="broach">Broach<br>
+                    <input type="checkbox" name="watch">Watch<br>
+                    <input type="checkbox" name="necklace">Necklace<br>
+                </td>
+
+                <td>
+                    <label for="todays-date">Today's Date</label><input type="date" id="todays-date"><br>
+                    <input type="range" min="0" max="100" name="grade-range">Grade Range<br>
+                    <input type="number" disabled readonly value="5" min="9" max="40" name="class-size">Class Size<br>
+                    <label for="password">Password</label><input type="password" width="20"><br>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+
+</body>
+
+</html>

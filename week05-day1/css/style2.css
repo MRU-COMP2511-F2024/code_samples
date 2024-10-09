@@ -1,0 +1,54 @@
+table {
+    border: 1pt solid blue;
+    width: 100%;
+}
+
+td {
+    border: 2px dashed black;
+    width: 33%;
+    text-align: left;
+}
+
+tr {
+    border: 4px dashed red;
+}
+
+tr:hover {
+    background-color: red;
+    
+}
+
+body {
+    font-size: 100%;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: Arsenal,Arial;
+}
+
+header {
+    padding-bottom: .75em;
+    border-bottom: 3px solid black;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 200%;
+    margin-bottom: 2px;
+}
+/* descendant */
+body li {
+    font-size: 90%;
+}
+
+ul a {
+    color: crimson
+}
+
+/* child */
+main>p {
+    font-size: 80%;
+    color: firebrick;
+}
+li>a {
+    color:green;
+}

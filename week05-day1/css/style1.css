@@ -1,0 +1,57 @@
+body {
+  background: #eeeeee;
+  font-family: 'Arsenal', Verdana, Arial, serif;
+  margin: 20px;
+  font-size: 15pt;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #009900;
+	text-align: center;
+	font-family: Georgia, sans-serif;
+}
+
+h2~p {
+	font-family: Tahoma, serif;
+    font-size: 20px;
+}
+
+.greenboldtext{
+  font-size: small;
+  color: #008080;
+  font-weight: bold;
+}
+
+#container{
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #666;
+  background: #ffffff;
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td {
+	border: 2px dashed black;
+	width: 33%;
+	text-align: left;
+}
+
+th {
+	border: 3px dotted black;
+    text-align: center;
+}
+
+tr {
+	border: 4px dashed black;
+}
+
+tr:hover {
+	background-color: red;
+}

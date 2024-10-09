@@ -1,0 +1,167 @@
+HTML input attributes with examples
+
+HTML input attributes
+
+HTML <input> elements have various attributes that control their behavior and appearance. Here are some of the most commonly used attributes:
+
+Type
+Specifies the type of input control. Common types include:
+
+Example
+<input type="text">
+<input type="password">
+<input type="checkbox">
+<input type="radio">
+Text
+A single-line text input (default).
+
+Example
+<input type="text" value="Initial Value">
+<input type="checkbox" value="check1">
+password
+A text input where the entered text is masked.
+
+Example
+<label for="password">Password:</label>
+<input type="password" id="password" name="password">
+checkbox
+A checkbox allowing multiple selections.
+
+<input type="checkbox" id="agree" checked>
+<label for="agree">I agree to the terms</label>
+Radio
+A radio button allowing single selection from multiple options.
+
+Example
+<form>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br>
+</form>
+File
+A control to select a file for upload.
+
+Example
+<form action="/upload" method="post" enctype="multipart/form-data">
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+
+  <input type="submit" value="Upload File">
+</form>
+Submit
+A button to submit a form.
+
+Example
+<form action="/submit-form" method="post">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username"><br><br>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password"><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+Reset
+A button to reset form inputs to their default values.
+
+Example
+<form>
+  <label for="fname">First Name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+
+  <label for="lname">Last Name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+
+  <input type="reset" value="Reset">
+  <input type="submit" value="Submit">
+</form>
+Button
+A generic button (useful with JavaScript).
+email, tel, url, etc.: Input types for specific data formats (helps with mobile keyboards and validation).
+
+Example
+<button type="button">Click Me!</button>
+Name
+The name of the input field, which is submitted along with the form data. It must be unique within the form.
+
+Example
+<input type="text" name="username">
+<input type="email" name="useremail">
+Value
+The initial value of the input field. For checkboxes and radio buttons, this attribute determines the value that gets submitted when the input is checked/selected.
+
+Example
+<input type="text" value="Initial Value">
+Placeholder
+A short hint or example text displayed in the input field before the user enters a value. It's typically used for providing a hint about the expected input format.
+
+Example
+<input type="text" placeholder="Enter your name">
+Required
+Specifies that the input field must be filled out before submitting the form. It triggers browser validation and displays an error message if the field is empty.
+
+Example
+<input type="text" required>
+Disabled
+Disables the input field so that its value is not submitted with the form and the user cannot interact with it.
+
+Example
+<input type="text" value="Disabled field" disabled>
+Readonly
+Makes the input field read-only, meaning the user can see its value but cannot modify it.
+
+Example
+<input type="text" value="Read-only value" readonly>
+Maxlength and Minlength
+Specifies the maximum and minimum length of text allowed in a text input.
+
+Example
+<input type="number" min="1" max="100">
+<input type="date" min="2020-01-01" max="2024-12-31">
+Maxlength
+Sets the maximum number of characters allowed in the input field.
+
+Example
+<input type="text" maxlength="50">
+Size
+Specifies the width of the input field in characters (applies only to text, password, and search types).
+
+Example
+<label for="username">Username:</label>
+<input type="text" id="username" name="username" size="30">
+Pattern
+Specifies a regular expression pattern that the input value must match to be considered valid.
+
+Example
+<input type="text" pattern="[A-Za-z]{3}">
+Autocomplete
+Enables or disables autocomplete suggestions for the input field. Values can be on or off.
+
+Example
+<form action="/shipping-details" method="post" autocomplete="shipping">
+  <label for="fullname">Full Name:</label>
+  <input type="text" id="fullname" name="fullname"><br><br>
+
+  <label for="address">Address:</label>
+  <input type="text" id="address" name="address"><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+Autofocus
+Specifies that the input field should automatically get focus when the page loads.
+
+Example
+<input type="text" autofocus>
+Multiple
+Specifies that multiple values can be entered into a file input
+(<input type="file">).
+
+Example
+<label for="files">Select multiple files:</label><br>
+<input type="file" id="files" name="files" multiple>
+These attributes can be combined to customize the behavior and appearance of <input> elements according to the specific needs of your HTML form. Each type of input (<input>) element may support different subsets of these attributes depending on its intended use.
