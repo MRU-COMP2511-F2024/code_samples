@@ -1,0 +1,32 @@
+div.articles p { 
+    font-family: Tahoma;
+}
+
+
+article p {
+    font-family: Verdana, sans-serif;
+
+}
+
+html {
+    background-color:violet; 
+}
+div {
+    background-color: blue;
+    border-width: 1px;
+    border-style: dashed;
+}
+
+article {
+    background-color: teal;
+    border-width: 2px;
+    border-style: dotted;
+}
+
+p {
+    background-color:brown;
+    border-width: 2px;
+    border-style: solid;
+    margin: 20px;
+    padding: 10px 10px 5px 5px;
+}
