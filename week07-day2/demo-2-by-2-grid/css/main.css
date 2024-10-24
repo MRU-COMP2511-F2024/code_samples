@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: black;
+}
+
+div {
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 2;
+    grid-gap: 10px;
+    border: 2px solid black;
+}
+
+.top {
+    grid-row: 1;
+    background-color: lightyellow;
+    padding: 1.5em;
+}
+.bottom {
+    grid-row: 2;
+    background-color: lightyellow;
+    padding: 1.5em;
+}
+.left {
+    grid-column: 1;
+    background-color: lightyellow;
+    padding: 1.5em;
+}
+.right {
+    grid-column: 2;
+    background-color: lightyellow;
+    padding: 1.5em;
+}
+
+h3 {
+    padding: 10px;
+
+}

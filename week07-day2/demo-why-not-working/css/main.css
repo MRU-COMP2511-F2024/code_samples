@@ -1,0 +1,57 @@
+body {
+    background-color: beige;
+}
+
+header {
+    background-color: lightcyan;
+    padding: 2px 5px;
+}
+
+.col {
+    box-sizing: border-box;
+    height: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    width: 10%;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+
+    float: left;
+}
+
+.middle {
+    width: 70%;
+    background-color: red;
+    color: white;
+    padding: 5px;
+
+    overflow: auto;
+    margin-left: 16px;
+}
+
+.right {
+    width: 20%;
+    background-color: green;
+    color: white;
+
+    padding: 5px;
+    float: right;
+}
+
+footer {
+    box-sizing: border-box;
+    background-color: yellow;
+    padding: 2px 5px;
+    clear: both;
+}
+
+/* Clear floats after the columns */
+.wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
