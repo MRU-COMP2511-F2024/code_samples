@@ -1,0 +1,38 @@
+header{
+    color: blue;
+    background-color: pink;
+    font-size: 24pt;
+    padding: 0px 5px;
+}
+#flex-container {
+    width: 250px;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: none;
+    height: 25 px;
+}
+a:link, a:visited {
+    background-color: lightpink;
+    color: blue;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: blue;
+    color: lightpink;
+}
+body#home #home a{
+    background-color: blue;
+    color: lightpink;
+} 
+body#page1 #page1 a{
+    background-color: blue;
+    color: lightpink;
+}
+body#page2 #page2 a{
+    background-color: blue;
+    color: lightpink;
+}
