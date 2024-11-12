@@ -1,0 +1,40 @@
+body {
+    background-color: beige;
+
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+}
+
+/*
+article {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+}
+*/
+
+header {
+    background-color: blue;
+    color: white;
+
+    grid-column: span 5;
+    /** grid-column: 1/6; **/
+}
+
+main {
+    background-color: teal;
+}
+
+figure {
+    background-color: green;
+}
+
+figcaption {
+    background-color: lightgreen;
+}
+
+img {
+    height: 200px;
+
+}
