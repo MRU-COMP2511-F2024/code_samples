@@ -1,0 +1,37 @@
+header, footer{
+    background-color: lightgray;
+    padding: 1px 0px 1px 10px;
+}
+#wrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightsalmon;
+    padding: 20px;
+}
+#col-left {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    width: 32%
+}
+#col-middle{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    width: 32%
+
+}
+#col-right{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    width: 32%
+}
+.spacer-left{
+    background-color: lightsalmon;
+    width: 10px;
+}
+.spacer-right{
+    background-color: lightsalmon;
+    width: 10px;
+}

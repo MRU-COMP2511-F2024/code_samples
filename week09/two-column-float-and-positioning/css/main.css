@@ -1,0 +1,36 @@
+h1{
+    font-size: 24pt;
+    font-weight: bold;
+    background-color: lightcyan;
+    padding: 20px;
+    color: red;
+}
+footer {    
+    background-color:blue;
+    color: white;
+    clear: both;
+}
+footer p{
+    color: white;
+    font-size: small;
+    clear: left;
+}
+.wrapper{
+    display:block;
+    height: 800;
+    margin-left: 5px;
+    margin-right: 5px;
+    gap: 10px;
+}
+#leftcol{
+    background-color: lightcyan;
+    height: 400px;
+    width: 250px;
+    float: left;
+}
+#rightcol{
+    height: 600px;
+    margin-left: 260;
+    padding-left: 10px;
+    overflow: auto;
+}

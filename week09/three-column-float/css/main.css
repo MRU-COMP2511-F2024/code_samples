@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+
+}
+#col-left {
+    background-color: lightcyan;
+    width: 32%;
+    padding: 50px;
+    float: left;
+}
+#col-middle {
+    background-color: lightyellow;
+    width: 32%;
+    padding: 50px;
+    float: left;
+}
+#col-right {
+    background-color: lightpink;
+    width: 32%;
+    padding: 50px;
+    float: left;
+}
+#col-divider {
+    border: 1px solid white;
+    background-color: white;
+    width: 1%;
+    float: left;
+}
+header, footer {
+    background-color: lightgrey;
+    padding: 5px;
+}
+footer {
+    clear: both;
+}

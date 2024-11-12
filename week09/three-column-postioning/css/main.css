@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+[id*="col-"] {
+    border: 1px solid black;
+}
+#col-left {
+    position: absolute;
+    top: 97px;
+    left: 8px;
+    background-color: lightcyan;
+    width: 24%;
+    height: 497px;
+    padding: 50px 10px;
+}
+#col-middle {
+    position: absolute;
+    background-color: lightyellow;
+    top: 97px;
+    margin-left: 290px;
+    height: 497px;
+    width: 50%;
+    padding: 10px;
+    overflow: auto;
+}
+#col-right {
+    Position: absolute;
+    top: 97px;
+    right: 8px;
+    background-color: lightpink;
+    width: 24%;
+    height: 497px;
+    padding: 50px 10px;
+}
+header {
+    background-color: lightgrey;
+    width: 100%;
+    padding: 5px;
+}
+footer {
+    position: absolute;
+    top: 595px;
+    width: 100%;
+    background-color: lightgrey;
+    padding: 5px;
+}
