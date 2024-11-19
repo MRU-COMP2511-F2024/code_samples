@@ -1,0 +1,11 @@
+.page-wrapper .breadcrumbs ul li.breadcrumb-link a {
+    color: #007FB5;
+}
+
+.page-wrapper .breadcrumbs ul li.breadcrumb-page {
+    color: #aaaaaa;
+}
+
+.btn {
+    border: none;
+}

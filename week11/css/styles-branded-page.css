@@ -1,0 +1,798 @@
+/* Styles for the page header and navigation */
+ #homepage-flex {
+	 margin: 0 -15px;
+}
+ .main-nav {
+	 background-color: #007FB5;
+	 margin-bottom: 0 !important;
+}
+ .nav > li > a {
+	 font-size: 13px !important;
+	 font-weight: 600;
+	 text-transform: uppercase;
+	 font-family: 'open sans', arial, sans-serif;
+	 z-index: 100;
+}
+ .nav > li > a:hover {
+	 color: #ffffff !important;
+}
+ .main-nav .nav .nav-item a {
+	 color: #dce7f0;
+	 -webkit-transition: all 0.4s ease-in-out;
+	 -moz-transition: all 0.4s ease-in-out;
+	 -ms-transition: all 0.4s ease-in-out;
+	 -o-transition: all 0.4s ease-in-out;
+}
+ .menu-table {
+	 display: table;
+	 margin: 0;
+}
+ .header .menu-top li:last-child a {
+	 padding-right: 10px;
+}
+ .header .menu-top li#search {
+	 padding: 10px 20px 14px 20px;
+}
+ @media (max-width: 768px) {
+	 .header .menu-top li#search {
+		 padding: 0px 20px 14px 20px !important;
+	}
+}
+ .logo-tcpa img {
+	 padding: 15px 0 15px 0;
+}
+ @media (max-width: 768px) {
+	 .logo-tcpa img {
+		 padding: 15px 20px 15px 20px;
+	}
+}
+ .header .menu-top a {
+	 padding: 0 15px;
+}
+ .header .menu-top li#search {
+	 background-color: rgba(0,0,0,0);
+	 font-size: 1.6em;
+	 width: 100%;
+	 text-align: right;
+	 padding: 10px 20px 14px 20px;
+}
+ @media (max-width: 768px) {
+	 .header .menu-top li#search {
+		 padding-top: 0px;
+	}
+}
+ .header .menu-top li#search:hover {
+	 background-color: #e7e7e7;
+}
+ .header .menu-top.navbar-right, .header .menu-top.navbar-left {
+	 margin: 0 20px;
+}
+ .header .menu-top.navbar-right li a, .header .menu-top.navbar-left li a, .header .menu-top li#search {
+	 color: #007fb5;
+}
+/* Moved inline to each specific branded page */
+/* .titleArea {
+	 background: #000 url('//cdn.mtroyal.ca/p/tcpa/img/[replace-this].png') no-repeat;
+}
+ */
+ .titleAreaText {
+	 padding-bottom: 10px;
+}
+ @media (max-width: 768px) {
+	 .titleAreaText {
+		 padding: 0px 0 20px 30px;
+	}
+}
+ .titleAreaText p {
+	 font-size: 1.8em;
+	 margin: 0 0 -4px 15px;
+	 font-family: 'open sans', arial, helvetica, sans-serif;
+	 color: #ffffff;
+	 font-weight: 600;
+}
+ .titleAreaText img {
+	/* 2019-08-02 width: 162px;
+	 */
+	 width: auto;
+	 height: 114px;
+	 padding-left: 16px;
+}
+ @media (max-width: 768px) {
+	 .titleAreaText img {
+		 width: 142px;
+	}
+}
+ .title-row {
+	 margin-bottom: 50px;
+}
+ @media (max-width: 768px) {
+	 .title-row {
+		 margin-bottom: 30px;
+	}
+}
+ #close-search-x .search-icon-shown {
+	 color: #696969;
+}
+ .closeSearch {
+	 font-size: 0.5em;
+}
+/* Branded Institute Homepages */
+ .branded .container-fluid {
+	 background-color: #ffffff;
+}
+ .branded h2.section-heading {
+	 color: #2f506c;
+	 font-size: 22px !important;
+	 font-weight: 300;
+	 line-height: 2;
+	 margin-top: 0;
+}
+ .branded h2.section-heading .line-green {
+	 border-top-color: #00C24F;
+	 border-top-style: solid;
+	 border-top-width: 2px;
+	 display: inline-block;
+	 padding: 5px 15px 0;
+}
+ .branded section h2:not(:first-child) {
+	 padding-left: 15px;
+	 font-size: 22px !important;
+	 font-weight: 300;
+}
+ .branded section p {
+	 margin-left:15px;
+	 margin-right:15px;
+}
+/* Footer styles */
+ .footer h3 {
+	 font-size: 24px;
+	 font-weight: 300;
+	 color: #FFFFFF;
+}
+ .footer .footer-content {
+	 min-height: 267px;
+}
+ .wrapper::after {
+	 height: 268px;
+}
+/* Medium devices (desktops, 992px and up) */
+ @media (min-width: 992px) {
+	 .wrapper {
+		 margin-bottom: -300px;
+	}
+	 .wrapper::after {
+		 height: 300px;
+	}
+	 .footer {
+		 height: auto;
+	}
+}
+ #subscribe-button {
+	 background-color: #00B1FF;
+	 padding: 10px 25px;
+	 font-size: 12px;
+	 text-transform: uppercase;
+	 display: inline-block;
+	 margin-top: 20px;
+	 border-radius: 2px;
+	 -webkit-transition: all 0.4s ease-out;
+	 -moz-transition: all 0.4s ease-out;
+	 -ms-transition: all 0.4s ease-out;
+	 -o-transition: all 0.4s ease-out;
+}
+ #subscribe-button:hover {
+	 background-color: #0099DD;
+	 cursor: pointer;
+}
+ #subscribe-button p {
+	 color: #FFFFFF;
+	 margin: 0px;
+}
+/* Styles for the rotating image header on home */
+ .flexslider .slides .flex-caption .main {
+	 font-size: 18px;
+	 font-weight: 300;
+	 letter-spacing: 1.5px;
+	 text-transform: none;
+}
+ .flexslider .slides .flex-caption .secondary {
+	 letter-spacing: 1.5px;
+}
+ @media only screen and (max-width: 768px) {
+	 #homepage-flex .flexslider .slides .flex-caption-bottom-right a.slider-button, #homepage-flex .flexslider .slides .flex-caption a.slider-button {
+		 margin-bottom: 0px;
+	}
+	 #homepage-flex .flexslider .slides .flex-caption-bottom-right, #homepage-flex .flexslider .slides .flex-caption {
+		 padding: 20px 40px 30px 40px;
+		 max-width: 100%;
+		 background-color: #222222;
+	}
+	 #homepage-flex .flexslider .slides .flex-caption-bottom-right .main, #homepage-flex .flexslider .slides .flex-caption .main {
+		 margin-top: 0;
+		 margin-left: 15px;
+	}
+	 #homepage-flex .flexslider .slides .flex-caption-bottom-right .main, #homepage-flex .flexslider .slides .flex-caption .secondary {
+		 margin-top: 0;
+		 margin-left: 15px!important;
+	}
+}
+ #homepage-flex {
+	 margin: 0 -15px;
+}
+ .grid {
+	 margin: 0 !important;
+	 padding: 0 !important;
+}
+/* Styles for All Events page */
+ .sort-button {
+	 background-color: rgba(0, 0, 0, 0);
+	 display: inline-block;
+	 margin: 15px 0px 35px 15px;
+	 float: right;
+}
+ .sort-button p {
+	 border: 1px solid #80868a;
+	 color: #80868a;
+	 border-radius: 2px;
+	 font-size: 12px;
+	 text-transform: uppercase;
+	 padding: 10px 25px;
+	 -webkit-transition: all 0.2s ease-in-out;
+	 -moz-transition: all 0.2s ease-in-out;
+	 -ms-transition: all 0.2s ease-in-out;
+	 -o-transition: all 0.2s ease-in-out;
+	 margin: 0px;
+}
+ .sort-button:hover {
+	 background-color: #80868a;
+	 cursor: pointer;
+}
+ .sort-button:hover p {
+	 color: #FFFFFF;
+}
+ @media only screen and (max-width: 768px) {
+	 .row .content .page-wrapper .sort-button {
+		 margin: 5px 0px;
+		 width: 100%;
+		 text-align: center;
+	}
+}
+/* Styles for performances on the website - Some of these are also for the Concert season performances */
+ .large-square, .small-square {
+	 box-sizing: border-box;
+	 width: 100%;
+	 position: relative;
+	 padding: 50%;
+	 margin-bottom: 30px;
+	 z-index: 1;
+}
+ .large-square .performance-content, .small-square .performance-content, .large-square .concert-season-performance-content, .small-square .concert-season-performance-content {
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 right: 0;
+	 padding: 20px 25px;
+	 z-index: 3;
+}
+ @media only screen and (max-width: 768px) {
+	 .large-square .performance-content, .small-square .performance-content, .large-square .concert-season-performance-content, .small-square .concert-season-performance-content {
+		 padding: 15px 20px;
+	}
+}
+ .large-square .info-tickets-button, .small-square .info-tickets-button, .large-square .concert-season-info-tickets-button, .small-square .concert-season-info-tickets-button {
+	 position: absolute;
+	 top: 0;
+	 bottom: 0;
+	 right: 0;
+	 left: 0;
+	 z-index: 2;
+	 text-align: center;
+	 opacity: 0;
+	 -webkit-transition: all 0.4s ease-out;
+	 -moz-transition: all 0.4s ease-out;
+	 -ms-transition: all 0.4s ease-out;
+	 -o-transition: all 0.4s ease-out;
+}
+ .large-square .info-tickets-button, .small-square .info-tickets-button {
+	 background-color: rgba(47, 47, 47, 0.59);
+}
+ .large-square .info-tickets-button:hover, .small-square .info-tickets-button:hover, .large-square .concert-season-info-tickets-button:hover, .small-square .concert-season-info-tickets-button:hover {
+	 opacity: 1;
+}
+ .large-square .info-tickets-button a, .small-square .info-tickets-button a, .large-square .concert-season-info-tickets-button a, .small-square .concert-season-info-tickets-button a {
+	 background-color: #00b1ff;
+	 padding: 10px 25px;
+	 color: #FFFFFF;
+	 font-size: 12px;
+	 text-transform: uppercase;
+	 display: inline-block;
+	 margin-top: 31%;
+	 border-radius: 2px;
+	 width: 150px;
+	 text-align: center;
+	 -webkit-transition: all 0.4s ease-out;
+	 -moz-transition: all 0.4s ease-out;
+	 -ms-transition: all 0.4s ease-out;
+	 -o-transition: all 0.4s ease-out;
+}
+ .large-square .info-tickets-button a:hover, .small-square .info-tickets-button a:hover, .large-square .concert-season-info-tickets-button a:hover, .small-square .concert-season-info-tickets-button a:hover {
+	 background-color: #0099DD;
+}
+ .small-square .info-tickets-button a, .small-square .concert-season-info-tickets-button a {
+	 margin-top: 31%;
+}
+ .large-square .info-tickets-button a, .large-square .concert-season-info-tickets-button a {
+	 margin-top: 48%;
+}
+ @media only screen and (max-width: 992px) {
+	 .large-square .info-tickets-button a, .large-square .concert-season-info-tickets-button a {
+		 margin-top: 31%;
+	}
+}
+ .performance-img {
+	 background-position: 50% 50%;
+	 background-size: cover;
+}
+ .performance-content {
+	 background-color: #80868a;
+}
+ .performance-content.bg-blue {
+	 background-color: #007fb5;
+}
+ .performance-content p, .concert-season-performance-content p {
+	 color: #ffffff;
+	 margin-bottom: 0;
+	 font-family: 'Open Sans', arial, helvetica, sans-serif;
+}
+ @media only screen and (max-width: 992px) {
+	 .performance-content p, .concert-season-performance-content p {
+		 margin: 0;
+	}
+}
+ .perf_name {
+	 font-weight: 600;
+	 font-size: 18px;
+}
+ @media only screen and (min-width: 768px) and (max-width: 992px) {
+	 .perf_name {
+		 font-size: 16px;
+	}
+}
+ @media only screen and (max-width: 768px) {
+	 .perf_name {
+		 font-size: 15px;
+	}
+}
+ .perf_name a {
+	 color: #FFFFFF;
+}
+ .perf_name a:hover {
+	 color: #f8f8f8;
+	 text-decoration: underline;
+}
+
+ .sort_date {
+	 display: none;
+}
+/* Styles for Concert Season page */
+ .concert-season-performance-content {
+	 background-color: rgba(0, 0, 0, 0.4);
+}
+ .large-square .concert-season-info-tickets-button, .small-square .concert-season-info-tickets-button {
+	 background-color: rgba(238, 42, 123, 0.4);
+}
+/* Styles for Individual performance pages */
+ .concert-desc p {
+	 color: #80868a;
+}
+ .concert-title {
+	 line-height: 1.4;
+	 color: #003352;
+}
+ @media only screen and (max-width: 768px) {
+	 .concert-title {
+		 margin-top: -50px;
+	}
+}
+ .ticketButton {
+	 background-color: #00b1ff;
+	 padding: 10px 25px;
+	 color: #FFFFFF;
+	 font-size: 13px;
+	 text-transform: uppercase;
+	 display: inline-block;
+	 margin-top: 20px;
+	 margin-bottom: 35px;
+	 border-radius: 2px;
+	 border: 0px;
+	 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	 letter-spacing: 0.5px;
+}
+ @media only screen and (max-width: 768px) {
+	 .ticketButton {
+		 width: 100%;
+	}
+}
+ .facebook-link i {
+	 color: #003352;
+}
+ .facebook-link a {
+	 font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 font-size: 16px;
+	 color: #003352;
+}
+ .facebook-link a:hover {
+	 text-decoration: underline;
+	 cursor: pointer;
+}
+/* Styles for the Stay in Touch section of the home page */
+ .stay-in-touch-section {
+	 background-color: #f8f8f8;
+}
+ @media only screen and (max-width: 992px) {
+	 .stay-in-touch-section {
+		 margin-top: 75px;
+	}
+}
+ .stay-in-touch-section h3 {
+	 color: #003352;
+}
+ .stay-in-touch-section .feat-txt {
+	 padding-top: 100px;
+	 padding-bottom: 100px;
+}
+/* Styles for the buttons across the website */
+ .call-to-action-button {
+	 background-color: #00B1FF;
+	 padding: 10px 25px;
+	 color: #FFFFFF;
+	 font-size: 12px;
+	 text-transform: uppercase;
+	 display: inline-block;
+	 margin-top: 30px;
+	 margin-bottom: 75px;
+	 border-radius: 2px;
+	 text-align: center;
+	 -webkit-transition: all 0.4s ease-out;
+	 -moz-transition: all 0.4s ease-out;
+	 -ms-transition: all 0.4s ease-out;
+	 -o-transition: all 0.4s ease-out;
+}
+ .call-to-action-button.full-width-cta-button {
+	 width: 100%;
+}
+ .call-to-action-button:hover {
+	 background-color: #0099DD;
+}
+ .call-to-action-button p, .call-to-action-button.full-width-cta-button p, .marketing-row-half-width-text .call-to-action-button p {
+	 color: #FFFFFF;
+	 margin-bottom: 0px;
+	 font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	 font-weight: normal;
+	 font-size: 13px;
+}
+ @media only screen and (min-width: 768px) and (max-width: 992px) {
+	 .call-to-action-button {
+		 margin-bottom: 25px;
+	}
+}
+ @media only screen and (max-width: 768px) {
+	 .call-to-action-button {
+		 margin-bottom: 0px;
+	}
+	 .feat-txt .call-to-action-button p {
+		 color: #FFFFFF;
+		 margin-bottom: 0px;
+	}
+}
+ .marketing-row-half-width-text .call-to-action-button .call-to-action-button {
+	 margin-bottom: 0px;
+}
+/* Styles for the Venues page of the website */
+ .marketing-row {
+	 margin: 60px 0;
+	 position: relative;
+	 padding: 0;
+}
+ .marketing-row-image {
+	 width: 100%;
+	 max-height: 500px;
+	 overflow: hidden;
+}
+ .marketing-row-full-width-image h1 {
+	 color: #FFFFFF;
+	 margin-bottom: 25px;
+	 line-height: 1.2;
+}
+ .marketing-row-full-width-image p {
+	 color: #FFFFFF;
+	 font-size: 18px;
+	 line-height: 1.6;
+	 font-family: 'open sans', arial, sans-serif;
+	 font-weight: 300;
+}
+ .marketing-row-full-width-image .black-overlay {
+	 left: 15px;
+	 right: 15px;
+}
+ .marketing-row-full-width-image .read-more-button a {
+	 border: 1px solid #ffffff;
+	 color: #ffffff;
+	 border-radius: 2px;
+}
+ .marketing-row-full-width-image .read-more-button:hover a {
+	 background-color: #FFFFFF;
+	 color: #333333;
+}
+ .marketing-row-full-width-image .marketing-row-text {
+	 position: absolute;
+	 width: 40%;
+	 margin-left: 30%;
+	 z-index: 5;
+	 top: 20%;
+}
+ @media only screen and (min-width:993px) and (max-width: 1200px) {
+	 .marketing-row-full-width-image .marketing-row-text {
+		 width: 50%;
+		 margin-left: 25%;
+	}
+}
+ @media only screen and (min-width:768px) and (max-width: 992px) {
+	 .marketing-row-full-width-image .marketing-row-text {
+		 width: 60%;
+		 margin-left: 20%;
+	}
+	 .marketing-row-full-width-image .marketing-row-text h1 {
+		 margin-bottom: 20px;
+	}
+	 .marketing-row-full-width-image .marketing-row-text p {
+		 font-size: 16px;
+	}
+}
+ @media only screen and (max-width: 767px) {
+	 .marketing-row-full-width-image .marketing-row-text {
+		 width: 80%;
+		 margin-left: 10%;
+		 top: 12%;
+	}
+}
+ @media only screen and (max-width: 768px) {
+	 .marketing-row-full-width-image .marketing-row-text h1 {
+		 font-size: 24px;
+		 margin-top: 15%;
+	}
+	 .marketing-row-full-width-image .marketing-row-text p {
+		 font-size: 14px;
+	}
+}
+ .marketing-row-half-width-image:hover img {
+	 cursor: auto;
+	 opacity: 1;
+}
+ .marketing-row-half-width-text h1 {
+	 font-size: 32px;
+	 line-height: 1.2;
+	 margin-bottom: 25px;
+	 margin-top: 15px;
+	 color: #003352;
+	 -webkit-transition: all 0.2s ease-in-out;
+	 -moz-transition: all 0.2s ease-in-out;
+	 -ms-transition: all 0.2s ease-in-out;
+	 -o-transition: all 0.2s ease-in-out;
+}
+ @media only screen and (min-width:992px) and (max-width: 1200px) {
+	 .marketing-row-half-width-text h1 {
+		 font-size: 28px;
+	}
+}
+ @media only screen and (min-width:767px) and (max-width: 992px) {
+	 .marketing-row-half-width-text h1 {
+		 font-size: 24px;
+	}
+}
+ @media only screen and (max-width: 767px) {
+	 .marketing-row-half-width-text h1 {
+		 font-size: 28px;
+	}
+}
+ .marketing-row-half-width-text p {
+	 font-size: 18px;
+	 line-height: 1.6;
+	 font-family: 'open sans', arial, sans-serif;
+	 font-weight: 300;
+	 color: #333333;
+}
+ @media only screen and (min-width:768px) and (max-width: 992px) {
+	 .marketing-row-half-width-text p {
+		 font-size: 16px;
+	}
+}
+ @media only screen and (max-width: 767px) {
+	 .marketing-row-half-width-text p {
+		 font-size: 16px;
+	}
+}
+ .marketing-row-half-width-text a:hover h1 {
+	 color: #00b1ff;
+}
+/* Styles that control the header images (the ones that don't rotate) */
+ .grid-item {
+	 position: relative;
+	 background-color: #ffffff;
+	 padding-left: 0 !important;
+	 padding-right: 0 !important;
+}
+/* Sets the article title and intro text to be in the bottom left of the box with articifical padding */
+ .grid-item .article-content {
+	 position: absolute;
+	 bottom: 80px;
+	 left: 33px;
+	 width: 80%;
+}
+ .grid-item .article-content .article-title {
+	 bottom: 0px;
+	 left: 30px;
+}
+ .grid-item .article-content .article-title h1 {
+	 font-size: 80px;
+	 padding: 20px 20px 0px 60px;
+	 font-weight: 300;
+}
+ .grid-item .article-content .article-title p {
+	 font-size: 36px;
+	 padding-left: 65px;
+	 letter-spacing: 0.02em;
+	 font-weight: 300;
+	 line-height: 1.3;
+}
+ .grid-item .article-content .article-title h1, .grid-item .article-content .article-title p {
+	 font-family: "Open sans";
+	 color: #FFF;
+}
+ .grid-item:hover .article-content .article-title h1, .grid-item:hover .article-content .article-title p {
+	 opacity: 0;
+}
+ .grid-item:hover .article-content .article-intro, .grid-item:hover .article-content .article-intro p, .grid-item:hover .article-content .article-intro p.read-article-text {
+	 opacity: 1;
+}
+ .grid-item img {
+	 width: 100%;
+}
+ .grid-item:hover .article-content .article-title h1, .grid-item:hover .article-content .article-title p {
+	 opacity: 1;
+}
+ @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+	 .grid-item .article-content .article-title h1 {
+		 font-size: 65px;
+	}
+	 .grid-item .article-content .article-title p {
+		 font-size: 28px;
+	}
+	 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+		 padding-left: 14px;
+	}
+}
+ @media only screen and (min-width: 992px) and (max-width: 1024px) {
+	 .grid-item .article-content .article-title h1 {
+		 font-size: 50px;
+	}
+	 .grid-item .article-content .article-title p {
+		 font-size: 24px;
+	}
+}
+ @media only screen and (min-width: 768px) and (max-width: 992px) {
+	 .grid-item .article-content .article-title h1 {
+		 font-size: 50px;
+	}
+}
+ @media only screen and (max-width: 768px) {
+	 .grid-item .article-content {
+		 bottom: 0px;
+		 left: 0px;
+	}
+	 .grid-item .article-content .article-title h1 {
+		 font-size: 26px;
+		 padding: 0px 0px 20px 30px;
+	}
+}
+/* Site-wide text and padding styles */
+ .pad-top-30 {
+	 padding-top: 30px;
+}
+ .pad-top-40 {
+	 padding-top: 40px;
+}
+ .pad-top-50 {
+	 padding-top: 50px;
+}
+ .ptop50 {
+	 padding-top: 50px;
+}
+ .pbot5 {
+	 padding-bottom: 5px;
+}
+ .pbot50 {
+	 padding-bottom: 50px;
+}
+ .pbot100 {
+	 padding-bottom: 100px;
+}
+ .feat-txt h1 {
+	 color: #003352;
+}
+ .feat-txt h3 {
+	 font-size: 36px;
+	 margin-bottom: 40px;
+	 font-weight: 300;
+}
+ .feat-txt p {
+	 font-size: 18px;
+	 line-height: 1.8;
+	 font-family: 'open sans', sans-serif;
+}
+ @media only screen and (max-width: 768px) {
+	 .feat-txt p {
+		 font-size: 16px;
+		 margin-bottom: 20px;
+	}
+}
+ .row-padding {
+	 padding-top: 55px;
+	 padding-bottom: 50px;
+}
+ @media (max-width: 768px) {
+	 .row-padding {
+		 padding-top: 35px;
+	}
+}
+ .txtc-01 {
+	 color: #003352;
+}
+ .txtc-02 {
+	 color: #00afff;
+}
+/* 2019-08-02 */
+ .navbar-left {
+	 float: left !important;
+	 padding-left: 0;
+}
+ header.titleArea h1 {
+	 color: #ffffff;
+	 padding-left: 13px;
+}
+
+
+
+
+ @media only screen and (max-width: 767px) {
+	h1 {
+		 font-size: 30px;
+	}
+	
+	h2 {
+		 font-size: 24px;
+	}
+	
+	h3 {
+		 font-size: 20px;
+	}
+}
+
+
+/* Flex Media Queries */
+ @media screen and (min-width: 992px) {
+	 .brandedUseFlex {
+		 display: flex;
+	}
+	 .brandedFlexJustifyCenter {
+		 justify-content: center;
+	}
+}
+
+ @media screen and (max-width: 768px) {
+    .brandedUseFlex {
+        margin-left: 15px;
+        margin-right: 15px;
+    }    
+}
+ 

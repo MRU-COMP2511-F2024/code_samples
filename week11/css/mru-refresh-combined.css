@@ -1,0 +1,180 @@
+/* ------------------------------------------------------------------------------*/
+/* This file combines the following css files:                                   */
+/*   - headerFeature.css                                                         */
+/*   - refreshQuickLinks.css                                                     */
+/*   - refreshLeftNav.css                                                        */
+/*   - refreshBreadcrumb.css                                                     */
+/* ------------------------------------------------------------------------------*/
+
+
+
+/* ------------------------------------------------------------------------------*/
+/* headerFeature.css                                                             */
+/* ------------------------------------------------------------------------------*/
+.refresh-caro-cap {
+ clear: both;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    width: 160px;
+    font-size: 12px
+}
+
+.refresh-caro-title{
+   font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 20px
+}
+
+.refresh-caro-body{
+     font-size: 12px;
+    height: 105px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+.refresh-caro-more{
+  float:right;
+}
+
+/* ------------------------------------------------------------------------------*/
+/* refreshQuickLinks.css                                                         */
+/* ------------------------------------------------------------------------------*/
+.qlinks-title{
+	width:158px;
+	color:#007AA5;
+	font-size:13px;
+	line-height:30px;
+	font-family:arial;
+}
+.qlinks-list{
+	width:158px;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+.qlinks-spacer{
+	width:158px;
+	margin-top:0px;
+	padding-top:0px;
+	height:3px;
+}
+
+.qlinks-list-item, 
+.qlinks-list-item a:link, 
+.qlinks-list-item a:visited{
+	color:#6E6E6E;
+	font-family:arial;
+	font-size:12px;
+	text-decoration:none;
+	border-style : none;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+.qlinks-list-item a:hover{
+	color: #007AA5;
+}
+.qlinks-list-item img{
+	margin-left:5px;
+}
+
+/* ------------------------------------------------------------------------------*/
+/* refreshLeftNav.css                                                            */
+/* ------------------------------------------------------------------------------*/
+.refreshLeftNav,
+a.refreshLeftNav:link,
+a.refreshLeftNav:visited{
+	/*color: #ffffff;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;	
+	border-style : none none none none;
+}
+a.refreshLeftNav:hover{
+	color: #33ccff;
+	text-decoration : none;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif; 	
+	border-style : none none none none;
+}
+a.refreshLeftNav-focus:link,
+a.refreshLeftNav-focus:visited,
+a.refreshLeftNav-focus:hover{  
+	color: #33ccff;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	font-weight: bold; 
+	text-decoration: none;
+	border-style : none none none none;
+}
+
+div.refreshLeftNav-container{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif; 
+	margin-bottom:20px;
+}
+
+div.refreshLeftNav{
+	margin-left:10px;
+	padding: 0px 0px 0px 0px;
+	margin-bottom : 5px;
+	margin-right : 0;
+	margin-top : 5px;
+}
+div.refreshLeftNav-child  {
+	margin-left: 20px;
+	margin-right: 6px;
+ 	/*margin-top: 3px;*/
+ 	margin-top: 6px;
+ 	margin-bottom: 3px;
+}
+
+.refreshLeftNav-separator{
+	margin-top:0px;
+	margin-bottom:0px;
+	font-size : 0px;
+	vertical-align: middle;
+	padding : 0 0 0 0;
+	line-height: 0px;
+	white-space : nowrap;
+}
+p.refreshLeftNav {
+	display:inline;
+	margin-left:10px;	
+	padding:0px;
+}
+
+
+/* ------------------------------------------------------------------------------*/
+/* refreshBreadcrumb.css                                                         */
+/* ------------------------------------------------------------------------------*/
+.refreshBreadcrumb{
+	color: #61544e;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	/*white-space: nowrap;	*/
+	text-decoration: none;
+	border-style: none none none none;
+}
+
+a.refreshBreadcrumb:link,
+a.refreshBreadcrumb:visited{
+	color: #61544e;
+    font-family: Arial, Helvetica, sans-serif;
+	 font-size: 9px;
+    /*white-space: nowrap;*/
+    text-decoration: none;
+	border-style: none none none none;
+}
+ a.refreshBreadcrumb:hover {
+ 	color: #811f03;
+	font-size: 9px;
+	text-decoration: none;
+	border-style: none none none none;
+}
+
+
+
+  /* END FILE */
